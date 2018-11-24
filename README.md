@@ -11,8 +11,7 @@ app.exe ^
 --holidayFilePath "C:\syukujitsu_kyujitsu.csv" ^
 --incomingWebhooksUrl "【Incoming Webhooks の URL】" ^
 --channel "#general" ^
---text "週報を提出してください" ^
---date "2018/11/22"
+--text "週報を提出してください"
 ```
 
 指定された date が週の最終営業日の場合、Slack に通知を投げます  
