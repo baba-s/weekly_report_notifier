@@ -79,11 +79,11 @@ internal static class Program
 
 		if ( !isLast )
 		{
-			Console.WriteLine( $"週の最終営業日ではありません" );
+			Console.WriteLine( "週の最終営業日ではありません" );
 			return;
 		}
 
-		Console.WriteLine( $"週の最終営業日なので Slack に通知を投げます" );
+		Console.WriteLine( "週の最終営業日なので Slack に通知を投げます" );
 
 		// 週の最終営業日の場合は Slack に通知を投げる
 		var payload = new Payload
