@@ -8,7 +8,7 @@ using System.Text;
  * # 使用例
  *
  * app.exe ^
- * --holidayFilePath "C:syukujitsu_kyujitsu.csv" ^
+ * --holidayFilePath "C:\syukujitsu_kyujitsu.csv" ^
  * --incomingWebhooksUrl "【Incoming Webhooks の URL】" ^
  * --channel "#general" ^
  * --text "週報を提出してください" ^
